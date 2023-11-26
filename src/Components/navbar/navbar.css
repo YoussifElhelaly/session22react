@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul li a.active {
+    color: red;
+}

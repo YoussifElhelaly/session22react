@@ -1,0 +1,20 @@
+.boxs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.box {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.box span {
+    margin: 20px 0;
+    display: inline-block;
+}

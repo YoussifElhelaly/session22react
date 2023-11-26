@@ -1,4 +1,3 @@
-import { useEffect, useRef, useState } from 'react'
 import './box.css'
 
 export default function Box(props) {
